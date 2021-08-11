@@ -1,7 +1,7 @@
 import React from "react";
 import ProgressBar from "./progress_bar.component";
 
-const LeftColorCard = ({ title, content, icon, color, progress }) => {
+const ColorBorderCard = ({ title, content, icon, color, progress }) => {
   return (
     <div className="col-xl-3 col-md-6 mb-4">
       <div className={`card border-left-${color} shadow h-100 py-2`}>
@@ -26,4 +26,4 @@ const LeftColorCard = ({ title, content, icon, color, progress }) => {
   );
 };
 
-export default LeftColorCard;
+export default ColorBorderCard;
