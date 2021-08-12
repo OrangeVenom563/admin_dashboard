@@ -11,7 +11,7 @@ const AreaChart = () => {
           <h6 className="m-0 font-weight-bold text-primary">
             Earnings Overview
           </h6>
-          <DropDown dropMenu={sampleDropMenu} />
+          <DropDown dropMenu={sampleDropMenu} fromChart/>
         </div>
         {/* <!-- Card Body --> */}
         <div className="card-body">

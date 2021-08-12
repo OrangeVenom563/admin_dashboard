@@ -9,7 +9,7 @@ const PieChart = () => {
         {/* <!-- Card Header - Dropdown --> */}
         <div className="card-header py-3 d-flex flex-row align-items-center justify-content-between">
           <h6 className="m-0 font-weight-bold text-primary">Revenue Sources</h6>
-          <DropDown dropMenu={sampleDropMenu} />
+          <DropDown dropMenu={sampleDropMenu} fromChart/>
         </div>
         {/* <!-- Card Body --> */}
         <div className="card-body">

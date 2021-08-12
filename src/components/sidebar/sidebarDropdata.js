@@ -16,17 +16,35 @@ const pagesDropMenu = [
   },
 ];
 
-// const utilitiesDropMenu = [
-//  { CUSTOM UTILITIES:
-// Colors
-// Borders
-// Animations
-// Other}
-// ]
+const utilitiesDropMenu = [
+  {
+    head: "CUSTOM UTILITIES:",
+    subHeads: [
+      { name: "Colors", link: "#" },
+      { name: "Borders", link: "#" },
+      { name: "Animations", link: "#" },
+      { name: "Other", link: "#" },
+    ],
+  },
+];
 
-// const componentsDropMenu =[
-//   CUSTOM COMPONENTS:
-// Buttons
-// Cards
+const componentsDropMenu = [
+  {
+    head: "CUSTOM COMPONENTS:",
+    subHeads: [
+      { name: " Buttons", link: "#" },
+      { name: "Cards", link: "#" },
+    ],
+  },
+];
+
+// const sidebarMainData =[
+//   INTERFACE
+// Components
+// Utilities
+// ADDONS
+// Pages
+// Charts
+// Tables
 // ]
-export default pagesDropMenu;
+export {pagesDropMenu,componentsDropMenu,utilitiesDropMenu};

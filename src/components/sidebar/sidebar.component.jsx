@@ -1,5 +1,5 @@
 import React from "react";
-import pagesDropMenu from './sidebarDropdata'
+import {pagesDropMenu,componentsDropMenu,utilitiesDropMenu} from './sidebarDropdata'
 import DropDown from '../dropdown/dropdown.component'
 
 const Sidebar = () => {
@@ -59,15 +59,8 @@ const Sidebar = () => {
             aria-labelledby="headingTwo"
             data-parent="#accordionSidebar"
           >
-            <div className="bg-white py-2 collapse-inner rounded">
-              <h6 className="collapse-header">Custom Components:</h6>
-              <a className="collapse-item" href="buttons.html">
-                Buttons
-              </a>
-              <a className="collapse-item" href="cards.html">
-                Cards
-              </a>
-            </div>
+            
+            <DropDown dropMenu={ componentsDropMenu}/>
           </div>
         </li>
 
@@ -90,21 +83,7 @@ const Sidebar = () => {
             aria-labelledby="headingUtilities"
             data-parent="#accordionSidebar"
           >
-            <div className="bg-white py-2 collapse-inner rounded">
-              <h6 className="collapse-header">Custom Utilities:</h6>
-              <a className="collapse-item" href="utilities-color.html">
-                Colors
-              </a>
-              <a className="collapse-item" href="utilities-border.html">
-                Borders
-              </a>
-              <a className="collapse-item" href="utilities-animation.html">
-                Animations
-              </a>
-              <a className="collapse-item" href="utilities-other.html">
-                Other
-              </a>
-            </div>
+            <DropDown dropMenu={utilitiesDropMenu}/>
           </div>
         </li>
 
