@@ -8,7 +8,7 @@ const ProgressBar = ({progress}) => {
           <div
             className="progress-bar bg-info"
             role="progressbar"
-            style={{width: "50%"}}
+            style={{width: `${progress}%`}}
             aria-valuenow={progress}
             aria-valuemin="0"
             aria-valuemax="100"

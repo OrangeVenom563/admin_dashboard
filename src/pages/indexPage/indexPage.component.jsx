@@ -21,19 +21,21 @@ const IndexPage = () => {
             <TopBar />
 
             <div className="container-fluid">
-              <PageHeading />
+              <PageHeading/>
 
               <ColorBorderCardsContainer />
 
               <ChartsContainer />
-
+              
               <div className="row">
                 <ProjectsContainer />
+              
 
                 <div className="col-lg-6 mb-4">
                   <Illustrations />
-
+                  
                   <Approach />
+                
                 </div>
               </div>
             </div>
@@ -46,9 +48,7 @@ const IndexPage = () => {
       <a className="scroll-to-top rounded" href="#page-top">
         <i className="fas fa-angle-up"></i>
       </a>
-
-      {/* <!-- Logout Modal--> */}
-      <LogoutModal/>
+      <LogoutModal />
     </div>
   );
 };
