@@ -8,14 +8,21 @@ const ColorBorderCard = ({ title, content, icon, color, progress }) => {
         <div className="card-body">
           <div className="row no-gutters align-items-center">
             <div className="col mr-2">
-              <div className={`text-xs font-weight-bold text-${color} text-uppercase mb-1`}>
+              <div
+                className={`text-xs font-weight-bold text-${color} text-uppercase mb-1`}
+              >
                 {title}
               </div>
-              <div className="h5 mb-0 font-weight-bold text-gray-800">
-                {content}
+              <div class="row no-gutters align-items-center">
+                <div class="col-auto">
+                  <div className="h5 mb-0 font-weight-bold text-gray-800">
+                    {content}
+                  </div>
+                </div>
+
+                {progress ? <ProgressBar progress={progress} /> : null}
               </div>
             </div>
-            {progress? <ProgressBar progress={progress}/>:null}
             <div className="col-auto">
               <i className={`fas fa-${icon} fa-2x text-gray-300`}></i>
             </div>

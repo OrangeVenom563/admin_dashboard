@@ -1,5 +1,5 @@
 import './App.css';
-import IndexPage from './pages/indexPage/indexPage.component';
+import IndexPage from './pages/indexpage/indexpage.component';
 
 function App() {
   return (
