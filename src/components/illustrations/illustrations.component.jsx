@@ -1,13 +1,10 @@
 import React from 'react';
+import CardHeading from '../cards_heading/card_heading.component';
 
 const Illustrations = () => {
     return(
         <div className="card shadow mb-4">
-        <div className="card-header py-3">
-          <h6 className="m-0 font-weight-bold text-primary">
-            Illustrations
-          </h6>
-        </div>
+        <CardHeading title='Illustrations'/>
         <div className="card-body">
           <div className="text-center">
             <img

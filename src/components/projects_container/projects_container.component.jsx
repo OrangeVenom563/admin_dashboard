@@ -1,15 +1,13 @@
 import react from "react";
 import ProjectPercent from "./projects_percentage.component";
 import projectsDetails from "./projects.data";
+import CardHeading from "../cards_heading/card_heading.component";
 
 const ProjectsContainer = () => {
   return (
     <div className="col-lg-6 mb-4">
-      {/* <!-- Project Card Example --> */}
       <div className="card shadow mb-4">
-        <div className="card-header py-3">
-          <h6 className="m-0 font-weight-bold text-primary">Projects</h6>
-        </div>
+        <CardHeading title="Projects" />
         <div className="card-body">
           {projectsDetails.map((item, idx) => (
             <ProjectPercent id={idx} {...item} />
