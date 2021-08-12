@@ -19,7 +19,6 @@ const ColorBorderCard = ({ title, content, icon, color, progress }) => {
                     {content}
                   </div>
                 </div>
-
                 {progress ? <ProgressBar progress={progress} /> : null}
               </div>
             </div>

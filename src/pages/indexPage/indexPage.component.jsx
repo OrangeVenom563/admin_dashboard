@@ -10,6 +10,7 @@ import Approach from "../../components/approach/approach.component";
 import Footer from "../../components/footer/footer.component";
 import LogoutModal from "../../components/logout_modal/logout_modal.component";
 
+
 const IndexPage = () => {
   return (
     <div className="page-top">
@@ -29,7 +30,6 @@ const IndexPage = () => {
               
               <div className="row">
                 <ProjectsContainer />
-              
 
                 <div className="col-lg-6 mb-4">
                   <Illustrations />
