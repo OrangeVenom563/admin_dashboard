@@ -1,5 +1,6 @@
 import React from "react";
 
+// page footer component
 const Footer = () => {
   return (
     <footer className="sticky-footer bg-white">

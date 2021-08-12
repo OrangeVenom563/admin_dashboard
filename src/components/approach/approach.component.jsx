@@ -1,6 +1,7 @@
 import React from "react";
 import CardHeading from "../cards_heading/card_heading.component";
 
+// approach component
 const Approach = () => {
   return (
     <div className="card shadow mb-4">

@@ -1,5 +1,6 @@
 import React from "react";
 
+// this component displays the percentage values in the project field
 const ProjectPercent = ({title,percent,color}) => {
   return (
     <>

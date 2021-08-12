@@ -1,5 +1,6 @@
 import React from 'react';
 
+// logout modal component
 const LogoutModal = () => {
     return(
         <div

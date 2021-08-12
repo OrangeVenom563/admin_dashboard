@@ -1,3 +1,4 @@
+// this data is displayed in the projects field 
 const projectsDetails =[
 {title:"Server Migration",percent:20,color:"danger"},
 {title:"Sales Tracking",percent:40,color:"warning"},

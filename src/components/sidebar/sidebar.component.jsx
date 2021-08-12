@@ -2,6 +2,7 @@ import React from "react";
 import {pagesDropMenu,componentsDropMenu,utilitiesDropMenu} from './sidebarDropdata'
 import DropDown from '../dropdown/dropdown.component'
 
+// this component is the blue color side bar appearing on the page
 const Sidebar = () => {
   return (
     <>

@@ -1,3 +1,4 @@
+// this data dropdown content of fields of sidebar main side bar contents are planned to be added from here 
 const pagesDropMenu = [
   {
     head: "LOGIN SCREENS:",

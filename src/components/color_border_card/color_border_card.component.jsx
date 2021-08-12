@@ -1,6 +1,7 @@
 import React from "react";
 import ProgressBar from "./progress_bar.component";
 
+// card component with color border on left side
 const ColorBorderCard = ({ title, content, icon, color, progress }) => {
   return (
     <div className="col-xl-3 col-md-6 mb-4">

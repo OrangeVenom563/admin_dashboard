@@ -1,3 +1,4 @@
+// this content will appear on dropdown lists
 const sampleDropMenu = [
     {
       head: "DROPDOWN HEADER:",

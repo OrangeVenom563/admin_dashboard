@@ -1,5 +1,6 @@
 import React from 'react';
 
+// progress bar inside the card component with color border on left side
 const ProgressBar = ({progress}) => {
   console.log(progress)
     return(

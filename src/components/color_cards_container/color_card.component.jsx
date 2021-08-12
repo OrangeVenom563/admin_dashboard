@@ -1,5 +1,6 @@
 import React from "react";
 
+// card component filled with color 
 const ColorCard = ({ colorName, colorCode, textColor }) => {
   return (
     <div className="col-lg-6 mb-4">
@@ -16,11 +17,3 @@ const ColorCard = ({ colorName, colorCode, textColor }) => {
 };
 export default ColorCard;
 
-<div class="col-lg-6 mb-4">
-  <div class="card bg-primary text-white shadow">
-    <div class="card-body">
-      Primary
-      <div class="text-white-50 small">#4e73df</div>
-    </div>
-  </div>
-</div>;

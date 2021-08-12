@@ -1,8 +1,9 @@
 import React from "react";
 
+// this dropdown conponent is planned and used for all the dropdowns displayed on output
+// from chart means the dropdown is called from the chart component and has renders specific to it
 const DropDown = ({dropMenu, fromChart}) => {
   return (
-
     <div className={fromChart? "dropdown no-arrow":"bg-white py-2 collapse-inner rounded"}>
      { fromChart? <a
         className="dropdown-toggle"

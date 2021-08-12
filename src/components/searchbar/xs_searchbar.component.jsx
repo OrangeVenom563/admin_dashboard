@@ -1,5 +1,6 @@
 import React from 'react';
 
+// this search bar appears only on the xs screen size
 const XsSearch =()=>{
     return(
         <li className="nav-item dropdown no-arrow d-sm-none">

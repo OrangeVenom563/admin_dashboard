@@ -1,6 +1,7 @@
 import React from 'react';
 import CardHeading from '../cards_heading/card_heading.component';
 
+// Illustrations component
 const Illustrations = () => {
     return(
         <div className="card shadow mb-4">

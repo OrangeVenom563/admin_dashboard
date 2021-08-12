@@ -1,17 +1,19 @@
 import React from "react";
 import DropDown from '../dropdown/dropdown.component';
-import sampleDropMenu from './chartsDropdata';
+import sampleDropMenu from './chartsDropdownData';
+import CardHeading from "../cards_heading/card_heading.component";
 
+// piechart component
 const PieChart = () => {
   return (
     <div className="col-xl-4 col-lg-5">
       <div className="card shadow mb-4">
-        {/* <!-- Card Header - Dropdown --> */}
-        <div className="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-          <h6 className="m-0 font-weight-bold text-primary">Revenue Sources</h6>
-          <DropDown dropMenu={sampleDropMenu} fromChart/>
-        </div>
-        {/* <!-- Card Body --> */}
+        
+        <CardHeading
+          title="Revenue Sources"
+          menu={<DropDown dropMenu={sampleDropMenu} fromChart />}
+        />
+       
         <div className="card-body">
           <div className="chart-pie pt-4 pb-2">
             <canvas id="myPieChart"></canvas>

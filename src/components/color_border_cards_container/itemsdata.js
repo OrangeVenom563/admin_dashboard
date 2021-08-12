@@ -1,3 +1,5 @@
+// this data will be present on cards with left color border
+
 const ItemsData = [
   {
     title: "EARNINGS (MONTHLY)",

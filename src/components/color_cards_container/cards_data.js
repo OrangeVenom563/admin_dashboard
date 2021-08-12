@@ -1,3 +1,4 @@
+// this data will be present in card filled with colors
 const cardsData = [
   { colorName: "Primary", colorCode: "#4e73df" },
   { colorName: "Success", colorCode: "#1cc88a" },

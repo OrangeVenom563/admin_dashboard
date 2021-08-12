@@ -1,19 +1,19 @@
 import React from "react";
-import DropDown from '../dropdown/dropdown.component';
-import sampleDropMenu from './chartsDropdata';
+import CardHeading from "../cards_heading/card_heading.component";
+import DropDown from "../dropdown/dropdown.component";
+import sampleDropMenu from "./chartsDropdownData";
 
+// areachart component?
 const AreaChart = () => {
   return (
     <div className="col-xl-8 col-lg-7">
       <div className="card shadow mb-4">
-        {/* <!-- Card Header - Dropdown --> */}
-        <div className="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-          <h6 className="m-0 font-weight-bold text-primary">
-            Earnings Overview
-          </h6>
-          <DropDown dropMenu={sampleDropMenu} fromChart/>
-        </div>
-        {/* <!-- Card Body --> */}
+       
+        <CardHeading
+          title="Earnings Overview"
+          menu={<DropDown dropMenu={sampleDropMenu} fromChart />}
+        />
+        
         <div className="card-body">
           <div className="chart-area">
             <canvas id="myAreaChart"></canvas>
